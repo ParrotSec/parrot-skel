@@ -1,8 +1,8 @@
 Package: parrot-skel
-Version: 2.0.2
+Version: 2.0.3
 Architecture: all
 Maintainer: Lorenzo EclipseSpark Faletra <eclipse@frozenbox.org>
-Installed-Size: 346
+Installed-Size: 204
 Suggests: parrot-interface
 Replaces: bash
 Section: parrot
