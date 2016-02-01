@@ -1,0 +1,5 @@
+#!/bin/bash -e
+set -e
+
+dconf compile /root/.config/dconf/user /etc/dconf/db/local.d/
+dconf compile /etc/skel/.config/dconf/user /etc/dconf/db/local.d/
