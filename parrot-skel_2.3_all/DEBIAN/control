@@ -1,7 +1,7 @@
 Package: parrot-skel
-Version: 2.2.3
+Version: 2.3
 Architecture: all
-Maintainer: Lorenzo EclipseSpark Faletra <eclipse@frozenbox.org>
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
 Installed-Size: 204
 Depends: xvkbd, dconf-cli
 Suggests: parrot-interface
