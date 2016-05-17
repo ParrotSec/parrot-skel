@@ -1,0 +1,5 @@
+parrot-skel (2.1+parrot0) testing; urgency=medium
+
+  * Import and debianize old source tree
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@parrotsec.org>  Wed, 18 May 2016 00:44:36 +0200

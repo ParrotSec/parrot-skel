@@ -1,0 +1,19 @@
+Source: parrot-skel
+Section: parrot
+Priority: important
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
+Uploaders: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>,
+           Lisetta "Sheireen" Ferrero <sheireen@frozenbox.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: pkg-config
+Homepage: http://www.parrotsec.org/
+
+Package: parrot-skel
+Architecture: all
+Depends: xvkbd, dconf-cli
+Suggests: parrot-interface
+Replaces: bash
+Section: parrot
+Description: Parrot SKEL package
+ this package provides the SKEL default content of users
