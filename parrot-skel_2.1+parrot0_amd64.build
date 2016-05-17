@@ -1,0 +1,257 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: info: source package parrot-skel
+dpkg-buildpackage: info: source version 2.1+parrot0
+dpkg-buildpackage: info: source distribution testing
+dpkg-buildpackage: info: source changed by Lorenzo "Palinuro" Faletra <eclipse@parrotsec.org>
+ dpkg-source --before-build parrot-skel
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b parrot-skel
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building parrot-skel in parrot-skel_2.1+parrot0.tar.xz
+dpkg-source: info: building parrot-skel in parrot-skel_2.1+parrot0.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_update_autotools_config
+   dh_auto_configure
+   dh_auto_build
+	make -j1
+make[1]: ingresso nella directory "/home/eclipse/Desktop/repo/parrot-skel/parrot-skel"
+make[1]: Nessuna operazione da eseguire per "all".
+make[1]: uscita dalla directory "/home/eclipse/Desktop/repo/parrot-skel/parrot-skel"
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+	make -j1 install DESTDIR=/home/eclipse/Desktop/repo/parrot-skel/parrot-skel/debian/parrot-skel AM_UPDATE_INFO_DIR=no
+make[1]: ingresso nella directory "/home/eclipse/Desktop/repo/parrot-skel/parrot-skel"
+chmod 644 -R parrot-skel/*
+chown root:root -R parrot-skel
+cp -r parrot-skel/* /home/eclipse/Desktop/repo/parrot-skel/parrot-skel/debian/parrot-skel/
+make[1]: uscita dalla directory "/home/eclipse/Desktop/repo/parrot-skel/parrot-skel"
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning: package parrot-skel: unused substitution variable ${perl:Depends}
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'parrot-skel' in '../parrot-skel_2.1+parrot0_all.deb'.
+ dpkg-genchanges  >../parrot-skel_2.1+parrot0_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build parrot-skel
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: parrot-skel source: debhelper-but-no-misc-depends parrot-skel
+W: parrot-skel source: maintainer-script-lacks-debhelper-token debian/postinst
+W: parrot-skel source: maintainer-also-in-uploaders
+W: parrot-skel source: changelog-should-mention-nmu
+W: parrot-skel source: source-nmu-has-incorrect-version-number 2.1+parrot0
+E: parrot-skel: copyright-file-contains-full-gpl-license
+E: parrot-skel: copyright-should-refer-to-common-license-file-for-gpl
+W: parrot-skel: unknown-section parrot
+W: parrot-skel: non-standard-dir-perm etc/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/dconf/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/dconf/db/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/dconf/db/local.d/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/autostart/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/bleachbit/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/caja/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/clipit/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/dconf/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/geany/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/gtk-2.0/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/gtk-3.0/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/lxpanel/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/lxpanel/LXDE/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/lxpanel/LXDE/panels/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/lxterminal/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/mate/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/mate/panel2.d/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/mate/panel2.d/default/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/mate/panel2.d/default/launchers/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/openbox/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/pcmanfm/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/pcmanfm/LXDE/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/pluma/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/xfce4/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/xfce4/panel/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/xfce4/panel/launcher-10/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/xfce4/panel/launcher-11/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/xfce4/panel/launcher-12/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/xfce4/panel/launcher-9/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/xfce4/xfconf/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.local/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.local/share/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/.local/share/applications/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/Desktop/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/Templates/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/Templates/prog/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/Templates/text/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm etc/skel/Templates/web/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm root/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/
+W: parrot-skel: non-standard-dir-perm root/.config/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/autostart/
+W: parrot-skel: non-standard-dir-perm root/.config/autostart/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/autostart/mate-user-share-obexftp.desktop
+E: parrot-skel: dir-or-file-in-home root/.config/autostart/mate-user-share-obexpush.desktop
+E: parrot-skel: dir-or-file-in-home root/.config/autostart/mate-user-share-webdav.desktop
+E: parrot-skel: dir-or-file-in-home root/.config/autostart/mate-user-share.desktop
+E: parrot-skel: dir-or-file-in-home root/.config/bleachbit/
+W: parrot-skel: non-standard-dir-perm root/.config/bleachbit/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/bleachbit/bleachbit.ini
+E: parrot-skel: dir-or-file-in-home root/.config/clipit/
+W: parrot-skel: non-standard-dir-perm root/.config/clipit/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/clipit/clipitrc
+E: parrot-skel: dir-or-file-in-home root/.config/dconf/
+W: parrot-skel: non-standard-dir-perm root/.config/dconf/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/dconf/user
+E: parrot-skel: dir-or-file-in-home root/.config/geany/
+W: parrot-skel: non-standard-dir-perm root/.config/geany/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/geany/geany.conf
+E: parrot-skel: dir-or-file-in-home root/.config/gtk-2.0/
+W: parrot-skel: non-standard-dir-perm root/.config/gtk-2.0/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/gtk-2.0/gtkfilechooser.ini
+E: parrot-skel: dir-or-file-in-home root/.config/gtk-3.0/
+W: parrot-skel: non-standard-dir-perm root/.config/gtk-3.0/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/gtk-3.0/settings.ini
+E: parrot-skel: dir-or-file-in-home root/.config/lxpanel/
+W: parrot-skel: non-standard-dir-perm root/.config/lxpanel/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/lxpanel/LXDE/
+W: parrot-skel: non-standard-dir-perm root/.config/lxpanel/LXDE/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/lxpanel/LXDE/config
+E: parrot-skel: dir-or-file-in-home root/.config/lxpanel/LXDE/panels/
+W: parrot-skel: non-standard-dir-perm root/.config/lxpanel/LXDE/panels/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/lxpanel/LXDE/panels/panel
+E: parrot-skel: dir-or-file-in-home root/.config/lxpanel/launchtaskbar.cfg
+E: parrot-skel: dir-or-file-in-home root/.config/lxterminal/
+W: parrot-skel: non-standard-dir-perm root/.config/lxterminal/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/lxterminal/lxterminal.conf
+E: parrot-skel: dir-or-file-in-home root/.config/mate/
+W: parrot-skel: non-standard-dir-perm root/.config/mate/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/mate/panel2.d/
+W: parrot-skel: non-standard-dir-perm root/.config/mate/panel2.d/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/mate/panel2.d/default/
+W: parrot-skel: non-standard-dir-perm root/.config/mate/panel2.d/default/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/mate/panel2.d/default/launchers/
+W: parrot-skel: non-standard-dir-perm root/.config/mate/panel2.d/default/launchers/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/mate/panel2.d/default/launchers/menuexecg.desktop
+E: parrot-skel: dir-or-file-in-home root/.config/openbox/
+W: parrot-skel: non-standard-dir-perm root/.config/openbox/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/openbox/lxde-rc.xml
+E: parrot-skel: dir-or-file-in-home root/.config/pcmanfm/
+W: parrot-skel: non-standard-dir-perm root/.config/pcmanfm/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/pcmanfm/LXDE/
+W: parrot-skel: non-standard-dir-perm root/.config/pcmanfm/LXDE/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/pcmanfm/LXDE/pcmanfm.conf
+E: parrot-skel: dir-or-file-in-home root/.config/pluma/
+W: parrot-skel: non-standard-dir-perm root/.config/pluma/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/pluma/accels
+E: parrot-skel: dir-or-file-in-home root/.config/pluma/pluma.ini
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/
+W: parrot-skel: non-standard-dir-perm root/.config/xfce4/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/helpers.rc
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/panel/
+W: parrot-skel: non-standard-dir-perm root/.config/xfce4/panel/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/panel/launcher-10/
+W: parrot-skel: non-standard-dir-perm root/.config/xfce4/panel/launcher-10/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/panel/launcher-10/13992975462.desktop
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/panel/launcher-11/
+W: parrot-skel: non-standard-dir-perm root/.config/xfce4/panel/launcher-11/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/panel/launcher-11/13992975473.desktop
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/panel/launcher-12/
+W: parrot-skel: non-standard-dir-perm root/.config/xfce4/panel/launcher-12/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/panel/launcher-12/13992975484.desktop
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/panel/launcher-9/
+W: parrot-skel: non-standard-dir-perm root/.config/xfce4/panel/launcher-9/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/panel/launcher-9/13992975441.desktop
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/
+W: parrot-skel: non-standard-dir-perm root/.config/xfce4/xfconf/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/
+W: parrot-skel: non-standard-dir-perm root/.config/xfce4/xfconf/xfce-perchannel-xml/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/pointers.xml
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-mixer.xml
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+E: parrot-skel: dir-or-file-in-home root/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+E: parrot-skel: dir-or-file-in-home root/.gtkrc-2.0
+E: parrot-skel: dir-or-file-in-home root/.local/
+W: parrot-skel: non-standard-dir-perm root/.local/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.local/share/
+W: parrot-skel: non-standard-dir-perm root/.local/share/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.local/share/applications/
+W: parrot-skel: non-standard-dir-perm root/.local/share/applications/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/.local/share/applications/mimeapps.list
+E: parrot-skel: dir-or-file-in-home root/.profile
+E: parrot-skel: dir-or-file-in-home root/Desktop/
+W: parrot-skel: non-standard-dir-perm root/Desktop/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/Desktop/README.license
+E: parrot-skel: dir-or-file-in-home root/Templates/
+W: parrot-skel: non-standard-dir-perm root/Templates/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/
+W: parrot-skel: non-standard-dir-perm root/Templates/prog/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/ObjC.m
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/assembly.asm
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/bash-sh.sh
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/c++.cpp
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/c.c
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/falcon.fal
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/header.h
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/java.java
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/perl.pl
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/perlModule.pm
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/python.py
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/ruby.rb
+E: parrot-skel: dir-or-file-in-home root/Templates/prog/shellcode.s
+E: parrot-skel: dir-or-file-in-home root/Templates/text/
+W: parrot-skel: non-standard-dir-perm root/Templates/text/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/Templates/text/calc.ods
+E: parrot-skel: dir-or-file-in-home root/Templates/text/impress.odp
+E: parrot-skel: dir-or-file-in-home root/Templates/text/txt.txt
+E: parrot-skel: dir-or-file-in-home root/Templates/text/writer.odt
+E: parrot-skel: dir-or-file-in-home root/Templates/web/
+W: parrot-skel: non-standard-dir-perm root/Templates/web/ 0655 != 0755
+E: parrot-skel: dir-or-file-in-home root/Templates/web/css.css
+E: parrot-skel: dir-or-file-in-home root/Templates/web/html.html
+E: parrot-skel: dir-or-file-in-home root/Templates/web/javascript.js
+E: parrot-skel: dir-or-file-in-home root/Templates/web/php.php
+E: parrot-skel: dir-or-file-in-home root/Templates/web/xml.xml
+W: parrot-skel: non-standard-dir-perm usr/ 0655 != 0755
+W: parrot-skel: non-standard-dir-perm usr/bin/ 0655 != 0755
+W: parrot-skel: binary-without-manpage usr/bin/update-skel
+W: parrot-skel: script-not-executable etc/skel/.config/mate/panel2.d/default/launchers/menuexecg.desktop
+W: parrot-skel: unusual-interpreter etc/skel/.config/mate/panel2.d/default/launchers/menuexecg.desktop #!xdg-open
+W: parrot-skel: script-not-executable etc/skel/Templates/prog/bash-sh.sh
+W: parrot-skel: script-not-executable etc/skel/Templates/prog/falcon.fal
+W: parrot-skel: script-not-executable etc/skel/Templates/prog/perl.pl
+W: parrot-skel: script-not-executable etc/skel/Templates/prog/python.py
+W: parrot-skel: script-not-executable etc/skel/Templates/prog/ruby.rb
+W: parrot-skel: script-not-executable root/.config/mate/panel2.d/default/launchers/menuexecg.desktop
+W: parrot-skel: unusual-interpreter root/.config/mate/panel2.d/default/launchers/menuexecg.desktop #!xdg-open
+W: parrot-skel: script-not-executable root/Templates/prog/bash-sh.sh
+W: parrot-skel: script-not-executable root/Templates/prog/falcon.fal
+W: parrot-skel: script-not-executable root/Templates/prog/perl.pl
+W: parrot-skel: script-not-executable root/Templates/prog/python.py
+W: parrot-skel: script-not-executable root/Templates/prog/ruby.rb
+W: parrot-skel: executable-not-elf-or-script usr/bin/update-skel
+Finished running lintian.
