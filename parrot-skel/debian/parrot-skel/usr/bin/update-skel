@@ -1,2 +1,0 @@
-awk -F: -v v="/home" '{if ($6~v) if ( -d $6 ) print "cp -rv /etc/skel/* "$6" && cp -rv /etc/skel/.[!.]* "$6" && chown "$1" "$6" -R" fi fi }' /etc/passwd | sh
-cp -rv /etc/skel/* /root && cp -rv /etc/skel/.[!.]* /root
