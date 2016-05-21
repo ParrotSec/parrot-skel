@@ -1,6 +1,6 @@
 #!/bin/bash -e
 set -e
-
+cp -r /usr/lib/parrot-skel/* /etc/
 dconf compile /root/.config/dconf/user /etc/dconf/db/local.d/
 dconf compile /etc/skel/.config/dconf/user /etc/dconf/db/local.d/
 chown root:root /root -R
