@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=XHydra
+GenericName=Network security auditor
+Comment=A fast network logon cracker
+Exec=xhydra %F
+Icon=xhydra
+Categories=Network;Security;
+Keywords=Audit;Hacking;Network;Password;Security;
+Terminal=false
+StartupNotify=true
+NoDisplay=false

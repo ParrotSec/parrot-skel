@@ -1,3 +1,12 @@
+parrot-skel (2.5+parrot0) testing; urgency=medium
+
+  * Improve package layout
+  * Improve makefile and postinst
+  * Enable screensaver on dconf
+  * Update some dconf rules
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@parrotsec.org>  Fri, 03 Feb 2017 13:20:23 +1100
+
 parrot-skel (2.4+parrot1) testing; urgency=high
 
   * Disable conffiles

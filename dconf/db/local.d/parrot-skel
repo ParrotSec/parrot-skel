@@ -2,131 +2,18 @@
 autoconfig-url='/etc/tor/onion.pac'
 mode='auto'
 
-[org/gnome/rhythmbox/library/source]
-show-browser=true
-
-[org/gnome/rhythmbox/plugins/audioscrobbler/Last.fm]
-scrobbling-enabled=true
-
-[org/gnome/rhythmbox/plugins/audioscrobbler/Libre.fm]
-scrobbling-enabled=true
-
-[org/gnome/rhythmbox/plugins/iradio]
-initial-stations-loaded=true
-
-[org/gnome/rhythmbox/plugins/iradio/source]
-show-browser=true
-
-[org/gnome/rhythmbox/plugins]
-active-plugins=['rb', 'mtpdevice', 'artsearch', 'dbus-media-server', 'notification', 'ipod', 'audiocd', 'mmkeys', 'audioscrobbler', 'generic-player', 'mpris', 'power-manager', 'daap', 'iradio']
-seen-plugins=['lyrics', 'rb', 'sendto', 'grilo', 'fmradio', 'magnatune', 'mtpdevice', 'rblirc', 'artsearch', 'dbus-media-server', 'notification', 'context', 'rbzeitgeist', 'ipod', 'replaygain', 'audioscrobbler', 'mpris', 'im-status', 'pythonconsole', 'daap']
-
-[org/gnome/rhythmbox/player]
-volume=1.0
-
-[org/gnome/rhythmbox/podcast/source]
-show-browser=true
-
-[org/gnome/rhythmbox/rhythmdb]
-locations=['file:///home/eclipse/Musica']
-
-[org/gnome/empathy/ui]
-show-groups=true
-
-[org/gnome/brasero/plugins/dvd-rw-format]
-priority=0
-
-[org/gnome/brasero/plugins/dvdauthor]
-priority=0
-
-[org/gnome/brasero/plugins/image-checksum]
-priority=0
-
-[org/gnome/brasero/plugins/audio2cue]
-priority=0
-
-[org/gnome/brasero/plugins/file-checksum]
-priority=0
-
-[org/gnome/brasero/plugins/libisofs]
-priority=0
-
-[org/gnome/brasero/plugins/file-downloader]
-priority=0
-
-[org/gnome/brasero/plugins/cdrdao]
-priority=0
-
-[org/gnome/brasero/plugins/burn-uri]
-priority=0
-
-[org/gnome/brasero/plugins/wodim]
-priority=0
-
-[org/gnome/brasero/plugins/genisoimage]
-priority=0
-
-[org/gnome/brasero/plugins/growisofs]
-priority=0
-
-[org/gnome/brasero/plugins/readom]
-priority=0
-
-[org/gnome/brasero/plugins/normalize]
-priority=0
-
-[org/gnome/brasero/plugins/transcode]
-priority=0
-
-[org/gnome/brasero/plugins/transcode2vob]
-priority=0
-
-[org/gnome/brasero/plugins/libburn]
-priority=0
-
-[org/gnome/brasero/plugins/dvdcss]
-priority=0
-
-[org/gnome/brasero/plugins/vcdimager]
-priority=0
-
-[org/gnome/brasero/drives/drive-2748246476/disc-4]
-speed=11080
-flags=64
-
-[org/gnome/brasero/drives/drive-2748246476/image-4]
-speed=11080
-flags=64
-
-[org/gnome/brasero/display]
-iso-folder='/home/build/2.1'
-
-[org/gnome/calculator]
-target-currency=''
-show-zeroes=false
-source-currency=''
-show-thousands=false
-button-mode='basic'
-target-units='radian'
-word-size=64
-number-format='automatic'
-angle-units='degrees'
-base=10
-source-units='degree'
-accuracy=9
-
 [org/gnome/desktop/a11y/mouse]
 secondary-click-enabled=false
 dwell-click-enabled=false
 
 [org/gnome/desktop/media-handling]
 automount-open=false
-automount=true
+automount=false
 autorun-never=true
 
 [org/gnome/desktop/privacy]
 remove-old-temp-files=true
-remove-old-trash-files=false
+remove-old-trash-files=true
 
 [org/gnome/desktop/interface]
 icon-theme='maia'
@@ -156,16 +43,17 @@ sort-column='name'
 sidebar-width=148
 window-position=(384, 95)
 show-size-column=true
-show-hidden=true
+show-hidden=false
 window-size=(830, 623)
 sort-order='ascending'
 location-mode='path-bar'
+sort-directories-first=true
 
 [org/mate/terminal/profiles/default]
 foreground-color='#0000FFFF0000'
 visible-name='Default'
 palette='#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC'
-title='Terminal'
+title='Parrot Terminal'
 background-darkness=0.90784313725490196
 use-theme-colors=false
 scrollbar-position='right'
@@ -218,9 +106,17 @@ button-power='interactive'
 sleep-display-battery=300
 lock-keyring-suspend=true
 button-lid-ac='blank'
+button-lid-battery='suspend'
+lock-keyring-suspend=true
 network-sleep=true
 button-suspend='suspend'
 brightness-dim-battery=70
+
+[org/mate/screensaver]
+idle-activation-enabled=true
+lock-enabled=true
+mode='single'
+themes=['screensavers-popsquares']
 
 [org/mate/system-monitor]
 current-tab=0
@@ -283,13 +179,13 @@ name='zile'
 
 [org/mate/desktop/keybindings/custom1]
 action='mate-terminal -x emacs -nw'
-binding='<Shift><Mod4>e'
+binding='<Mod4>e'
 name='emacs term'
 
 [org/mate/desktop/keybindings/custom0]
-action='emacs'
-binding='<Mod4>e'
-name='emacs'
+action='firefox'
+binding='<Mod4>b'
+name='browser'
 
 [org/mate/desktop/keybindings/custom3]
 action='mate-terminal -x cone'
@@ -309,6 +205,16 @@ scroll-method=2
 horiz-scroll-enabled=true
 tap-to-click=true
 touchpad-enabled=true
+horizontal-edge-scrolling=true
+horizontal-two-finger-scrolling=true
+natural-scroll=0
+tap-button-one-finger=1
+tap-button-two-finger=3
+tap-button-three-finger=2
+three-finger-click=2
+fwo-finger-click=3
+vertical-edge-scrolling=true
+vertical-two-finger-scrolling=true
 
 [org/mate/desktop/peripherals/keyboard/general]
 duplicate-leds=false
@@ -422,9 +328,6 @@ show-sidebar=true
 dual-page=true
 inverted-colors=false
 
-[org/mate/system-tools/users]
-showroot=true
-showall=true
 
 [org/mate/panel/general]
 object-id-list=['menu-bar', 'notification-area', 'clock', 'window-list', 'workspace-switcher', 'object_0', 'object_1', 'object_2', 'object_5', 'object_6', 'object_7', 'object_8', 'object_9', 'object_11', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
@@ -481,7 +384,7 @@ panel-right-stick=false
 applet-iid='WnckletFactory::WorkspaceSwitcherApplet'
 locked=false
 toplevel-id='bottom'
-position=1365
+position=1920
 object-type='applet'
 panel-right-stick=false
 

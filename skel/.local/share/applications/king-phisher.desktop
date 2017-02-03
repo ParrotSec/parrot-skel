@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=King Phisher
+GenericName=King Phisher
+Exec=/usr/share/king-phisher/KingPhisher
+Terminal=true
+Type=Application
+Categories=Network;Security;
+Comment=Phishing Campaign Toolkit
+Icon=king-phisher-icon
+NoDisplay=false

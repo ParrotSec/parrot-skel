@@ -1,6 +1,5 @@
 #!/bin/bash -e
 set -e
-cp -r /usr/lib/parrot-skel/* /etc/
-dconf compile /root/.config/dconf/user /etc/dconf/db/local.d/
-dconf compile /etc/skel/.config/dconf/user /etc/dconf/db/local.d/
-chown root:root /root -R
+mkdir -p /etc/dconf/db/local.d/
+rsync -a --delete /usr/lib/parrot-skel/skel /etc/skel
+cp -r /usr/lib/parrot-skel/dconf/db/local.d/parrot-skel /etc/dconf/db/local.d/parrot-skel
