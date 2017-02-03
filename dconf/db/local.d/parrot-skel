@@ -207,12 +207,12 @@ tap-to-click=true
 touchpad-enabled=true
 horizontal-edge-scrolling=true
 horizontal-two-finger-scrolling=true
-natural-scroll=0
+natural-scroll=true
 tap-button-one-finger=1
 tap-button-two-finger=3
 tap-button-three-finger=2
 three-finger-click=2
-fwo-finger-click=3
+two-finger-click=3
 vertical-edge-scrolling=true
 vertical-two-finger-scrolling=true
 
@@ -276,14 +276,12 @@ secondary-color='#2c2c00001e1e'
 cc-actions-list=['Change Theme;mate-appearance-properties.desktop', 'Set Preferred Applications;mate-default-applications-properties.desktop']
 
 [org/mate/pluma]
-history-replace-with=['#a0665b', '#c85550', '#00fff7', '#207ADA', 'ffef4c', '#269926', '#73a46a', '#558266', '#4d6360']
 highlight-current-line=true
 display-right-margin=true
 bracket-matching=true
 color-scheme='cobalt'
 display-line-numbers=true
 active-plugins=['quickopen', 'externaltools', 'changecase', 'sort', 'pythonconsole', 'time', 'docinfo', 'taglist', 'filebrowser', 'spell', 'snippets', 'modelines']
-history-search-for=[' contrib non-free', 'acva', 'frozen', 'default', 'default co', 'color scheme', 'color ', 'color', '#2D2D2D']
 statusbar-visible=true
 
 [org/mate/pluma/plugins/time]
@@ -330,7 +328,7 @@ inverted-colors=false
 
 
 [org/mate/panel/general]
-object-id-list=['menu-bar', 'notification-area', 'clock', 'window-list', 'workspace-switcher', 'object_0', 'object_1', 'object_2', 'object_5', 'object_6', 'object_7', 'object_8', 'object_9', 'object_11', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
+object-id-list=['menu-bar', 'notification-area', 'clock', 'window-list', 'workspace-switcher', 'object_0', 'object_1', 'object_2', 'object_5', 'object_6', 'object_7', 'object_8', 'object_9', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
 toplevel-id-list=['top', 'bottom']
 
 [org/mate/panel/toplevels/bottom]
@@ -417,13 +415,6 @@ toplevel-id='top'
 position=1
 object-type='applet'
 panel-right-stick=true
-
-[org/mate/panel/objects/object_11]
-launcher-location='/usr/share/applications/gksu.desktop'
-toplevel-id='top'
-position=305
-object-type='launcher'
-panel-right-stick=false
 
 [org/mate/panel/objects/object_1]
 locked=true

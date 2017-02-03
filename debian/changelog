@@ -1,3 +1,10 @@
+parrot-skel (2.7+parrot0) testing; urgency=medium
+
+  * Increment version
+  * Fix minor bugs
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 03 Feb 2017 02:48:08 +0100
+
 parrot-skel (2.5+parrot1) testing; urgency=medium
 
   * Add dconf-cli to build dependencies
