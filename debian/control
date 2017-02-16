@@ -11,7 +11,7 @@ Homepage: http://www.parrotsec.org/
 
 Package: parrot-skel
 Architecture: all
-Depends: xvkbd, dconf-cli
+Depends: xvkbd, dconf-cli, rsync
 Suggests: parrot-interface
 Replaces: bash
 Section: parrot

@@ -1,3 +1,9 @@
+parrot-skel (2.7+parrot2) testing; urgency=medium
+
+  * Add rsync as dependency as it is used in postinst
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 16 Feb 2017 16:40:40 +0100
+
 parrot-skel (2.7+parrot1) testing; urgency=medium
 
   * Fix postinst path
