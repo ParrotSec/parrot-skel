@@ -1,5 +1,5 @@
 #!/bin/bash -e
 set -e
 mkdir -p /etc/dconf/db/local.d/
-rsync -a --delete /usr/lib/parrot-skel/etc/skel /etc/skel
+rsync -a --delete /usr/lib/parrot-skel/etc/skel /etc/
 cp -r /usr/lib/parrot-skel/etc/dconf/db/local.d/parrot-skel /etc/dconf/db/local.d/parrot-skel
