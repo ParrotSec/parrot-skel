@@ -7,4 +7,4 @@ Terminal=false
 Type=Application
 Categories=Network;
 Keywords=ettercap,ettercap-pkexec
-NoDisplay=false
+NoDisplay=true

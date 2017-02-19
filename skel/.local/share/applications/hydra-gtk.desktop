@@ -10,4 +10,4 @@ Categories=Network;Security;
 Keywords=Audit;Hacking;Network;Password;Security;
 Terminal=false
 StartupNotify=true
-NoDisplay=false
+NoDisplay=true

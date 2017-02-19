@@ -10,4 +10,4 @@ Terminal=false
 Type=Application
 Icon=etherape
 Categories=GNOME;System;Network;
-NoDisplay=false
+NoDisplay=true

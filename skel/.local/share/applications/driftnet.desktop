@@ -7,4 +7,4 @@ Icon=driftnet
 Type=Application
 Categories=Network;Monitor;
 Keywords=Sniffer;Network capture;
-NoDisplay=false
+NoDisplay=true

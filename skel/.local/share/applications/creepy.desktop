@@ -9,5 +9,4 @@ Icon=creepy
 Categories=Network;Security;
 Terminal=false
 StartupNotify=true
-
-NoDisplay=false
+NoDisplay=true

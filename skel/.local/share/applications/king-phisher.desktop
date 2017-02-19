@@ -7,4 +7,4 @@ Type=Application
 Categories=Network;Security;
 Comment=Phishing Campaign Toolkit
 Icon=king-phisher-icon
-NoDisplay=false
+NoDisplay=true

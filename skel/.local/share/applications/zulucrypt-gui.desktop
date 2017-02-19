@@ -10,4 +10,4 @@ Terminal=false
 StartupNotify=true
 Categories=System;Security
 Keywords=volumes;encrypting;luks;truecrypt;encrypt;security;cryptsetup
-NoDisplay=false
+NoDisplay=true

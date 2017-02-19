@@ -123,3 +123,4 @@ Comment[vi]=Tìm và chạy ứng dụng đã cài đặt trên hệ thống c�
 Comment[zh_CN]=查找和启动在您系统上安装的应用程序
 Comment[zh_HK]=尋找並啟動系統安裝的應用程式
 Comment[zh_TW]=尋找並啟動您系統上安裝的應用程式
+NoDisplay=true

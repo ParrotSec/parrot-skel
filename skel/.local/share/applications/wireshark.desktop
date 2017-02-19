@@ -109,4 +109,4 @@ MimeType=application/vnd.tcpdump.pcap;application/x-pcapng;application/x-snoop;a
 # Category entry according to:
 # http://standards.freedesktop.org/menu-spec/1.0/
 Categories=Network;Monitor;Qt;
-NoDisplay=false
+NoDisplay=true

@@ -30,7 +30,6 @@ image/bmp=eom.desktop
 image/gif=eom.desktop
 image/tiff=eom.desktop
 text/x-c++src=pluma.desktop
-application/x-deb=debmod-extractor.desktop
 
 [Added Associations]
 text/html=pluma.desktop;

@@ -284,3 +284,4 @@ X-GNOME-Bugzilla-Product=gnome-utils
 X-GNOME-Bugzilla-Component=baobab
 X-GNOME-Bugzilla-Version=3.22.1
 DBusActivatable=true
+NoDisplay=true
