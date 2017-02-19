@@ -1,3 +1,9 @@
+parrot-skel (2.7+parrot4) testing; urgency=medium
+
+  * Fix dconf compilation instructions
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sun, 19 Feb 2017 04:23:34 +0100
+
 parrot-skel (2.7+parrot3) testing; urgency=medium
 
   * Fix rsync path in postinst

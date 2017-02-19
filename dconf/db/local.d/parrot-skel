@@ -36,8 +36,6 @@ background-transparency-percent=33
 use-theme-colors=false
 use-transparent-background=true
 
-
-
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=148
@@ -192,7 +190,6 @@ action='mate-terminal -x cone'
 binding='<Mod4>m'
 name='cone'
 
-
 # THAT'S FUCKIN'IMPORTANT FOR FORENSIC PURPOSES
 [org/mate/desktop/media-handling]
 automount-open=false
@@ -326,9 +323,8 @@ show-sidebar=true
 dual-page=true
 inverted-colors=false
 
-
 [org/mate/panel/general]
-object-id-list=['menu-bar', 'notification-area', 'clock', 'window-list', 'workspace-switcher', 'object_0', 'object_1', 'object_2', 'object_5', 'object_6', 'object_7', 'object_8', 'object_9', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
+object-id-list=['menu-bar', 'notification-area', 'clock', 'window-list', 'workspace-switcher', 'object_0', 'object_1', 'object_2', 'object_5', 'object_6', 'object_7', 'object_8', 'object_9', 'object_11', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
 toplevel-id-list=['top', 'bottom']
 
 [org/mate/panel/toplevels/bottom]
