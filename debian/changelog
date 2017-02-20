@@ -1,3 +1,9 @@
+parrot-skel (2.8+parrot0) testing; urgency=medium
+
+  * Import firefox profiles from parrot-interface-common
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 20 Feb 2017 01:30:31 +0100
+
 parrot-skel (2.7+parrot5) testing; urgency=medium
 
   * Fix hidden menu launchers
