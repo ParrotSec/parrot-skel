@@ -324,7 +324,7 @@ dual-page=true
 inverted-colors=false
 
 [org/mate/panel/general]
-object-id-list=['menu-bar', 'notification-area', 'clock', 'window-list', 'workspace-switcher', 'object_0', 'object_1', 'object_2', 'object_5', 'object_6', 'object_7', 'object_8', 'object_9', 'object_11', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
+object-id-list=['menu-bar', 'notification-area', 'clock', 'window-list', 'workspace-switcher', 'object_0', 'object_1', 'object_2', 'object_7', 'object_8', 'object_9', 'object_11', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
 toplevel-id-list=['top', 'bottom']
 
 [org/mate/panel/toplevels/bottom]
@@ -378,9 +378,9 @@ panel-right-stick=false
 applet-iid='WnckletFactory::WorkspaceSwitcherApplet'
 locked=false
 toplevel-id='bottom'
-position=1920
+position=1
 object-type='applet'
-panel-right-stick=false
+panel-right-stick=true
 
 [org/mate/panel/objects/workspace-switcher/prefs]
 display-all-workspaces=true
@@ -389,7 +389,7 @@ num-rows=1
 [org/mate/panel/objects/object_10]
 applet-iid='InhibitAppletFactory::InhibitApplet'
 toplevel-id='bottom'
-position=1
+position=20
 object-type='applet'
 panel-right-stick=true
 
@@ -397,7 +397,7 @@ panel-right-stick=true
 applet-iid='ClockAppletFactory::ClockApplet'
 locked=false
 toplevel-id='top'
-position=240
+position=20
 object-type='applet'
 panel-right-stick=true
 
@@ -433,7 +433,7 @@ cpuload-color0='#00FF00'
 cpuload-color1='#FF0000'
 cpuload-color2='#0000FF'
 cpuload-color3='#5A5E6B'
-speed=1000
+speed=2000
 swapload-color0='#55FF55'
 memload-color0='#00FF00'
 memload-color1='#0000FF'
@@ -452,29 +452,15 @@ view-diskload=false
 applet-iid='NotificationAreaAppletFactory::NotificationArea'
 locked=false
 toplevel-id='top'
-position=324
+position=50
 object-type='applet'
 panel-right-stick=true
-
-[org/mate/panel/objects/object_5]
-applet-iid='DriveMountAppletFactory::DriveMountApplet'
-toplevel-id='toplevel_0'
-position=49
-object-type='applet'
-panel-right-stick=false
 
 [org/mate/panel/objects/object_7]
 launcher-location='/usr/share/applications/firefox.desktop'
 toplevel-id='top'
 position=251
 object-type='launcher'
-panel-right-stick=false
-
-[org/mate/panel/objects/object_6]
-applet-iid='DriveMountAppletFactory::DriveMountApplet'
-toplevel-id='toplevel_1'
-position=81
-object-type='applet'
 panel-right-stick=false
 
 [org/mate/panel/objects/object_8]

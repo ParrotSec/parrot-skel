@@ -11,10 +11,10 @@
 user_pref("network.dns.blockDotOnion", false);
 user_pref("browser.startup.homepage","https://start.parrotsec.org");
 user_pref("startup.homepage_welcome_url", "https://start.parrotsec.org");
-user_pref("startup.homepage_override_url", "https://start.parrotsec.org");
+//user_pref("startup.homepage_override_url", "https://start.parrotsec.org");
 user_pref("startup.homepage_welcome_url.additional", "https://docs.parrotsec.org/donate");
 user_pref("accessibility.blockautorefresh", true);
-user_pref("accessibility.browsewithcaret", true);
+user_pref("accessibility.browsewithcaret", false);
 user_pref("browser.search.defaultenginename", "DuckDuckGo");
 user_pref("browser.search.hiddenOneOffs", "Bing,Amazon.com,eBay,Twitter");
 user_pref("browser.search.useDBForOrder", true);
