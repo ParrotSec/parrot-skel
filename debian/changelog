@@ -1,3 +1,9 @@
+parrot-skel (2.8+parrot2) testing; urgency=medium
+
+  * Change new windows position
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 23 Feb 2017 21:55:17 +0100
+
 parrot-skel (2.8+parrot1) testing; urgency=medium
 
   * Remove useless menu applets

@@ -286,6 +286,7 @@ prompt-type='prompt-selected-format'
 
 [org/mate/marco/general]
 titlebar-uses-system-font=true
+center-new-windows=false
 button-layout='close,maximize,minimize:menu'
 side-by-side-tiling=true
 compositing-manager=true
