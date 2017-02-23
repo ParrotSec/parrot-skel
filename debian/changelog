@@ -1,3 +1,10 @@
+parrot-skel (2.8+parrot3) testing; urgency=medium
+
+  * Hide useless launchers
+    (Closes: https://community.parrotsec.org/viewtopic.php?id=94)
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 23 Feb 2017 23:01:28 +0100
+
 parrot-skel (2.8+parrot2) testing; urgency=medium
 
   * Change new windows position
