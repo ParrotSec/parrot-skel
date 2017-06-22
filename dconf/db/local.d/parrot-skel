@@ -300,7 +300,7 @@ run-command-terminal='<alt>t'
 [org/mate/caja/preferences]
 background-color='#008080'
 show-hidden-files=false
-background-set=true
+background-set=false
 side-pane-background-set=true
 show-advanced-permissions=true
 side-pane-background-color='#008080'
