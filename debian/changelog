@@ -1,3 +1,9 @@
+parrot-skel (2.9+parrot0) testing; urgency=medium
+
+  * Remove that ugly background color in caja.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 23 Jun 2017 15:13:58 +0200
+
 parrot-skel (2.8+parrot3) testing; urgency=medium
 
   * Hide useless launchers
