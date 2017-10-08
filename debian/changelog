@@ -1,3 +1,9 @@
+parrot-skel (2.10+parrot0) testing; urgency=medium
+
+  * Update dconf defaults.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 09 Oct 2017 01:38:16 +0200
+
 parrot-skel (2.9+parrot0) testing; urgency=medium
 
   * Remove that ugly background color in caja.

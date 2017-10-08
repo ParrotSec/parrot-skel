@@ -6,11 +6,6 @@ mode='auto'
 secondary-click-enabled=false
 dwell-click-enabled=false
 
-[org/gnome/desktop/media-handling]
-automount-open=false
-automount=false
-autorun-never=true
-
 [org/gnome/desktop/privacy]
 remove-old-temp-files=true
 remove-old-trash-files=true
@@ -91,13 +86,7 @@ overwrite=true
 recreate-folders=true
 
 [org/mate/engrampa/ui]
-sidebar-width=200
-window-height=692
-window-width=1024
 view-folders=true
-
-[org/mate/disk-usage-analyzer/ui]
-statusbar-visible=true
 
 [org/mate/power-manager]
 button-power='interactive'
@@ -112,17 +101,12 @@ brightness-dim-battery=70
 
 [org/mate/screensaver]
 idle-activation-enabled=true
-lock-enabled=true
+lock-enabled=false
 mode='single'
 themes=['screensavers-popsquares']
 
 [org/mate/system-monitor]
 current-tab=0
-
-[org/mate/system-monitor/disktreenew]
-columns-order=[0, 1, 2, 3, 4, 5, 6]
-sort-order=0
-sort-col=1
 
 [org/mate/system-monitor/proctree]
 col-14-width=0
@@ -175,9 +159,19 @@ action='mate-terminal -x zile'
 binding='<Mod4>z'
 name='zile'
 
+[org/mate/desktop/keybindings/custom5]
+action='mate-terminal -x vim'
+binding='<Mod4>v'
+name='vim'
+
+[org/mate/desktop/keybindings/custom4]
+action='emacs'
+binding='<Mod4>e'
+name='emacs'
+
 [org/mate/desktop/keybindings/custom1]
 action='mate-terminal -x emacs -nw'
-binding='<Mod4>e'
+binding='<Shift><Mod4>e'
 name='emacs term'
 
 [org/mate/desktop/keybindings/custom0]
@@ -186,16 +180,22 @@ binding='<Mod4>b'
 name='browser'
 
 [org/mate/desktop/keybindings/custom3]
-action='mate-terminal -x cone'
-binding='<Mod4>m'
-name='cone'
+action='geany'
+binding='<Mod4>g'
+name='geany'
 
-# THAT'S FUCKIN'IMPORTANT FOR FORENSIC PURPOSES
+# THAT'S FUCKIN'IMPORTANT FOR FORENSICS PURPOSES
 [org/mate/desktop/media-handling]
 automount-open=false
 automount=false
 autorun-x-content-start-app=['x-content/software']
 autorun-never=true
+
+[org/gnome/desktop/media-handling]
+automount-open=false
+automount=false
+autorun-never=true
+
 
 [org/mate/desktop/peripherals/touchpad]
 scroll-method=2
@@ -219,9 +219,6 @@ handle-indicators=false
 load-extra-items=true
 group-per-window=false
 
-[org/mate/desktop/peripherals/keyboard/kbd]
-layouts=['us', 'it', 'es']
-options=@as []
 
 [org/mate/desktop/peripherals/keyboard]
 numlock-state='off'
@@ -269,15 +266,14 @@ picture-options='zoom'
 picture-filename='/usr/share/backgrounds/default.jpg'
 secondary-color='#2c2c00001e1e'
 
-[org/mate/control-center]
-cc-actions-list=['Change Theme;mate-appearance-properties.desktop', 'Set Preferred Applications;mate-default-applications-properties.desktop']
-
 [org/mate/pluma]
 highlight-current-line=true
 display-right-margin=true
 bracket-matching=true
 color-scheme='cobalt'
 display-line-numbers=true
+auto-indent=true
+bottom-panel-visible=true
 active-plugins=['quickopen', 'externaltools', 'changecase', 'sort', 'pythonconsole', 'time', 'docinfo', 'taglist', 'filebrowser', 'spell', 'snippets', 'modelines']
 statusbar-visible=true
 
@@ -315,17 +311,17 @@ start-with-toolbar=true
 
 [org/mate/caja/desktop]
 network-icon-name='Network'
-computer-icon-name='ParrotSec'
+computer-icon-name='Parrot'
 home-icon-name='Home'
 network-icon-visible=true
 
 [org/mate/atril/default]
 show-sidebar=true
-dual-page=true
+dual-page=false
 inverted-colors=false
 
 [org/mate/panel/general]
-object-id-list=['menu-bar', 'notification-area', 'clock', 'window-list', 'workspace-switcher', 'object_0', 'object_1', 'object_2', 'object_7', 'object_8', 'object_9', 'object_11', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
+object-id-list=['menu-bar', 'notification-area', 'clock', 'window-list', 'workspace-switcher', 'object_1', 'object_2', 'object_7', 'object_8', 'object_9', 'object_11', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
 toplevel-id-list=['top', 'bottom']
 
 [org/mate/panel/toplevels/bottom]
@@ -406,19 +402,12 @@ panel-right-stick=true
 format='24-hour'
 custom-format=''
 
-[org/mate/panel/objects/object_0]
-applet-iid='IndicatorAppletCompleteFactory::IndicatorAppletComplete'
-toplevel-id='top'
-position=1
-object-type='applet'
-panel-right-stick=true
-
 [org/mate/panel/objects/object_1]
 locked=true
+applet-iid='BriskMenuFactory::BriskMenu'
 toplevel-id='bottom'
-position=2
-object-type='menu'
-use-menu-path=false
+position=1
+object-type='applet'
 panel-right-stick=false
 
 [org/mate/panel/objects/object_2]
@@ -434,7 +423,7 @@ cpuload-color0='#00FF00'
 cpuload-color1='#FF0000'
 cpuload-color2='#0000FF'
 cpuload-color3='#5A5E6B'
-speed=2000
+speed=5000
 swapload-color0='#55FF55'
 memload-color0='#00FF00'
 memload-color1='#0000FF'
@@ -451,7 +440,7 @@ view-diskload=false
 
 [org/mate/panel/objects/notification-area]
 applet-iid='NotificationAreaAppletFactory::NotificationArea'
-locked=false
+locked=true
 toplevel-id='top'
 position=50
 object-type='applet'
@@ -482,5 +471,5 @@ panel-right-stick=false
 applet-iid='WnckletFactory::WindowListApplet'
 locked=true
 toplevel-id='bottom'
-position=34
+position=40
 object-type='applet'
