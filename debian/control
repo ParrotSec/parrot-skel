@@ -1,7 +1,7 @@
 Source: parrot-skel
 Section: parrot
 Priority: important
-Maintainer: Parrot Dev Team <parrot-devel@lists.parrotsec.org
+Maintainer: Parrot Dev Team <parrot-devel@lists.parrotsec.org>
 Uploaders: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>,
            Lisetta "Sheireen" Ferrero <sheireen@parrotsec.org>
 Standards-Version: 3.9.8
