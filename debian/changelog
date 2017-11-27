@@ -1,3 +1,10 @@
+parrot-skel (3.1+parrot0) testing; urgency=medium
+
+  * Update firefox profile for firefox quantum.
+  * Update desktop readme and license notes.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 27 Nov 2017 02:14:35 +0100
+
 parrot-skel (3.0+parrot0) testing; urgency=medium
 
   * Update desktop readme and license notes.
