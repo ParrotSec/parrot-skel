@@ -1,3 +1,9 @@
+parrot-skel (3.3+parrot1) testing; urgency=medium
+
+  * Update copyright note in desktop readme.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 19 Mar 2018 15:20:59 +0100
+
 parrot-skel (3.2+parrot1) testing; urgency=medium
 
   * Update copyright note in desktop readme.
