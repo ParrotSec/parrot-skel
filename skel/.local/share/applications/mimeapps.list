@@ -6,9 +6,9 @@ text/html=pluma.desktop
 x-scheme-handler/mailto=icedove.desktop
 application/x-extension-eml=icedove.desktop
 message/rfc822=icedove.desktop
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
-x-scheme-handler/about=firefox.desktop
+x-scheme-handler/http=iceweasel-common.desktop
+x-scheme-handler/https=iceweasel-common.desktop
+x-scheme-handler/about=iceweasel-common.desktop
 inode/directory=caja-folder-handler.desktop
 audio/mpeg=vlc.desktop
 audio/x-mpegurl=vlc.desktop
@@ -33,9 +33,6 @@ text/x-c++src=pluma.desktop
 
 [Added Associations]
 text/html=pluma.desktop;
-x-scheme-handler/http=firefox.desktop;
-x-scheme-handler/https=firefox.desktop;
-x-scheme-handler/about=firefox.desktop;
 inode/directory=caja-folder-handler.desktop;
 audio/mpeg=vlc.desktop;
 audio/x-mpegurl=vlc.desktop;

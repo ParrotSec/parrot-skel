@@ -1,3 +1,10 @@
+parrot-skel (4.3+parrot1) testing; urgency=medium
+
+  * Add .vimrc and .emacs config files (thanks dmknght for the tip).
+  * Update mimeapps file.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Wed, 29 Aug 2018 02:18:39 +0200
+
 parrot-skel (4.2+parrot1) testing; urgency=medium
 
   * Update default theme.
