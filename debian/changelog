@@ -1,3 +1,9 @@
+parrot-skel (4.3+parrot2) testing; urgency=medium
+
+  * Minor fix in .vimrc
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 03 Sep 2018 01:11:56 +0200
+
 parrot-skel (4.3+parrot1) testing; urgency=medium
 
   * Add .vimrc and .emacs config files (thanks dmknght for the tip).
