@@ -98,10 +98,18 @@ lock-keyring-suspend=true
 network-sleep=true
 button-suspend='suspend'
 brightness-dim-battery=70
+idle-dim-battery=false
+lock-blank-screen=true
+lock-hybernate=true
+lock-keyring-hybernate=true
+lock-keyring-suspend=true
+lock-suspend=true
+lock-use-screensaver=true
 
 [org/mate/screensaver]
-idle-activation-enabled=true
-lock-enabled=false
+idle-activation-enabled=false
+lock-enabled=true
+lock-delay=0
 mode='single'
 themes=['screensavers-popsquares']
 
@@ -155,9 +163,9 @@ icon-theme='maia'
 gtk-theme='ARK-Dark'
 
 [org/mate/desktop/keybindings/custom2]
-action='mate-terminal -x zile'
-binding='<Mod4>z'
-name='zile'
+action='mate-terminal'
+binding='<Mod4>t'
+name='terminal'
 
 [org/mate/desktop/keybindings/custom5]
 action='mate-terminal -x vim'
@@ -268,12 +276,11 @@ secondary-color='#2c2c00001e1e'
 
 [org/mate/pluma]
 highlight-current-line=true
-display-right-margin=true
 bracket-matching=true
 color-scheme='cobalt'
 display-line-numbers=true
 auto-indent=true
-bottom-panel-visible=true
+bottom-panel-visible=false
 active-plugins=['quickopen', 'externaltools', 'changecase', 'sort', 'pythonconsole', 'time', 'docinfo', 'taglist', 'filebrowser', 'spell', 'snippets', 'modelines']
 statusbar-visible=true
 
@@ -313,7 +320,9 @@ start-with-toolbar=true
 network-icon-name='Network'
 computer-icon-name='Parrot'
 home-icon-name='Home'
-network-icon-visible=true
+computer-icon-visible=true
+home-icon-visible=true
+network-icon-visible=false
 
 [org/mate/atril/default]
 show-sidebar=true

@@ -1,3 +1,10 @@
+parrot-skel (4.3+parrot3) testing; urgency=medium
+
+  * Improve dconf settings.
+  * Update bashrc.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sat, 13 Oct 2018 02:33:35 +0200
+
 parrot-skel (4.3+parrot2) testing; urgency=medium
 
   * Minor fix in .vimrc
