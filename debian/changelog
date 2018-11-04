@@ -1,3 +1,15 @@
+parrot-skel (4.4+parrot1) testing; urgency=medium
+
+  * Include KDE Plasma settings.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sun, 04 Nov 2018 04:25:06 +0100
+
+parrot-skel (4.3+parrot4) testing; urgency=medium
+
+  * Fix typo in license.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 19 Oct 2018 19:02:48 +0200
+
 parrot-skel (4.3+parrot3) testing; urgency=medium
 
   * Improve dconf settings.
