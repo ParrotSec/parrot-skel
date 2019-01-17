@@ -4,5 +4,4 @@ filetype on
 set nu
 set ruler
 set mouse=a
-set listchars=tab:\|\
 set list
