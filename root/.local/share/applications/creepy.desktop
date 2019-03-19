@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.1
+Name=creepy
+GenericName[en_GB]=creepy
+Comment=geolocation information aggregator
+Exec=creepy
+Icon=creepy
+Categories=Network;Security;
+Terminal=false
+StartupNotify=true
+NoDisplay=true
