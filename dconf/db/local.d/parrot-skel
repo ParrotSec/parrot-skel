@@ -320,11 +320,11 @@ secondary-color='#2c2c00001e1e'
 [org/mate/pluma]
 highlight-current-line=true
 bracket-matching=true
-color-scheme='cobalt'
+color-scheme='solarized-dark'
 display-line-numbers=true
 auto-indent=true
 bottom-panel-visible=false
-active-plugins=['quickopen', 'externaltools', 'changecase', 'sort', 'pythonconsole', 'time', 'docinfo', 'taglist', 'filebrowser', 'spell', 'snippets', 'modelines']
+active-plugins=['changecase', 'sort', 'time', 'docinfo', 'taglist', 'filebrowser', 'spell', 'modelines']
 statusbar-visible=true
 
 [org/mate/pluma/plugins/time]
