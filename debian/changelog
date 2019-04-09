@@ -1,3 +1,11 @@
+parrot-skel (4.6+parrot3) testing; urgency=medium
+
+  * Set dark theme on dbeaver.
+  * Update python and perl templates.
+  * Add new templates for rust and go.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Wed, 10 Apr 2019 00:33:56 +0200
+
 parrot-skel (4.6+parrot2) testing; urgency=medium
 
   * Disable broken pluma plugins.
