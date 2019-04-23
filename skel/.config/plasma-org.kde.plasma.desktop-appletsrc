@@ -194,3 +194,6 @@ PreloadWeight=42
 [ScreenMapping]
 itemsOnDisabledScreens=
 screenMapping=desktop:/README.license,0
+
+[Containments][39][Wallpaper][org.kde.image][General]
+Image=file://usr/share/backgrounds/default.jpg

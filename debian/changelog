@@ -1,5 +1,6 @@
 parrot-skel (4.6+parrot4) testing; urgency=medium
 
+  * Use default parrot wallpaper as background.
   * Disable kwalletrc
     + (suggested by rootCode https://community.parrotsec.org/t/parrotos-4-6-qa-testing-discussion/6949/51)
 
