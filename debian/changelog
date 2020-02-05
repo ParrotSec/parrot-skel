@@ -1,3 +1,15 @@
+parrot-skel (4.8+parrot1) rolling-testing; urgency=medium
+
+  * Switch to geany alt color scheme.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Wed, 05 Feb 2020 15:20:04 +0100
+
+parrot-skel (4.7+parrot1) rolling; urgency=medium
+
+  * Update geany color scheme.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 05 Aug 2019 19:05:57 +0200
+
 parrot-skel (4.6+parrot4) testing; urgency=medium
 
   * Use default parrot wallpaper as background.
