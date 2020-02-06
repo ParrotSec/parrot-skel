@@ -1,3 +1,10 @@
+parrot-skel (4.8+parrot2) rolling-testing; urgency=medium
+
+  * Update mozilla profiles.
+  * Update document templates.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 06 Feb 2020 01:40:40 +0100
+
 parrot-skel (4.8+parrot1) rolling-testing; urgency=medium
 
   * Switch to geany alt color scheme.
