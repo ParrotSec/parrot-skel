@@ -1,3 +1,9 @@
+parrot-skel (4.8+parrot6) rolling-testing; urgency=medium
+
+  * Update copyright info.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Wed, 04 Mar 2020 15:38:44 +0100
+
 parrot-skel (4.8+parrot5) rolling-testing; urgency=medium
 
   * Remove firefox profile (now included in parrot-interface-common).
