@@ -1,3 +1,10 @@
+parrot-skel (4.9) rolling-testing; urgency=medium
+
+  * Import new updates from git.
+  * Include trash icon on desktop.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 28 Apr 2020 18:03:47 +0200
+
 parrot-skel (4.8+parrot6) rolling-testing; urgency=medium
 
   * Update copyright info.

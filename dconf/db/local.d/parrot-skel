@@ -360,12 +360,12 @@ start-with-location-bar=true
 start-with-toolbar=true
 
 [org/mate/caja/desktop]
-network-icon-name='Network'
 computer-icon-name='Parrot'
-home-icon-name='Home'
 computer-icon-visible=true
 home-icon-visible=true
 network-icon-visible=false
+trash-icon-visible=true
+volumes-visible=true
 
 [org/mate/atril/default]
 show-sidebar=true
