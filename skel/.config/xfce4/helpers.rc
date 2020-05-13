@@ -1,4 +1,4 @@
-FileManager=custom-FileManager
+FileManager=Thunar
 WebBrowser=firefox
-TerminalEmulator=custom-TerminalEmulator
+TerminalEmulator=xfce4-terminal
 
