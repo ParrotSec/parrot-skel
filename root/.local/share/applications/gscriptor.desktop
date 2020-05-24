@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Gscriptor
+Comment=Send commands to smart cards
+Exec=gscriptor
+Terminal=false
+Type=Application
+Categories=Utility;GTK;
+Keywords=smartcard;apdu;
+NoDisplay=true

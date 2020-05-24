@@ -1,3 +1,9 @@
+parrot-skel (4.10) rolling-testing; urgency=medium
+
+  * Update KDE configs to improve overall UX.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sun, 24 May 2020 03:16:13 +0200
+
 parrot-skel (4.9) rolling-testing; urgency=medium
 
   * Import new updates from git.
