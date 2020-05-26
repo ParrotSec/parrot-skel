@@ -75,6 +75,7 @@
         <value type="string" value="wicd-client.py"/>
       </property>
       <property name="names-ordered" type="array">
+        <value type="string" value="remmina"/>
         <value type="string" value="task manager"/>
         <value type="string" value="blueman-tray"/>
         <value type="string" value="networkmanager applet"/>
