@@ -1,5 +1,3 @@
-favorites=exo-web-browser.desktop,exo-mail-reader.desktop,exo-file-manager.desktop,exo-terminal-emulator.desktop
-recent=xfce4-taskmanager.desktop,org.kde.ksysguard.desktop,xfce-display-settings.desktop,xfce-wm-settings.desktop,xfce-ui-settings.desktop,xfce-backdrop-settings.desktop,xfce4-settings-editor.desktop,exo-mail-reader.desktop
 button-icon=emblem-parrot
 button-single-row=false
 show-button-title=false
