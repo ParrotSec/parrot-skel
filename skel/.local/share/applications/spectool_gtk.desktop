@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=spectool_gtk
-Comment=2.4 GHz spectrum analysis using the Wi-Spy hardware device
-Comment[fr]=Analyse du spectre 2.4 GHz en utilisant l'appareil Wi-Spy
-Name=Spectrum Tool
-Keywords=wifi;network;spectrum;analysis;monitoring
-NoDisplay=true

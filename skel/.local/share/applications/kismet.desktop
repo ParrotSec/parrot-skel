@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Kismet
-Exec=kismet
-Terminal=true
-Categories=Network;Monitor;ConsoleOnly;
-Keywords=intrusion detection system;IDS;wireless;network;security;detector; monitor;sniffer;
-NoDisplay=true
