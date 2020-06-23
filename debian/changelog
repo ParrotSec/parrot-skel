@@ -1,3 +1,9 @@
+parrot-skel (4.10.2) rolling-testing; urgency=medium
+
+  * Import previous work from git.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 23 Jun 2020 17:10:23 +0200
+
 parrot-skel (4.10.1) rolling-testing; urgency=medium
 
   * Merge with previous xfce work.
