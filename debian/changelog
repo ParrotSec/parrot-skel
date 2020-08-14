@@ -1,3 +1,12 @@
+parrot-skel (4.10.4) rolling-testing; urgency=medium
+
+  * New lock screen hotkey (root).
+  * Fix power-manager display (root).
+  * Fix power applet display.
+  * Change lock screen shortcut (ctrl + alt + l).
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 14 Aug 2020 18:31:30 +0200
+
 parrot-skel (4.10.3) rollng-testing; urgency=medium
 
   * Rebuild package.
