@@ -3,8 +3,8 @@ function fish_greeting
 end
 
 function fish_prompt
-    echo (set_color red)"┌──["(set_color normal)"$USER@"(set_color cyan)"$hostname"(set_color red)"]─["(set_color yellow)(date "+%H:%M-%d/%m")(set_color red)"]─["(set_color blue)"$PWD"(set_color red)"]"
-    echo (set_color red)"└──╼"(set_color yellow) "\$"(set_color normal)
+    echo (set_color red)"┌["(set_color cyan)"$hostname"(set_color red)"]─["(set_color yellow)(date "+%H:%M-%d/%m")(set_color red)"]─["(set_color blue)"$PWD"(set_color red)"]"
+    echo (set_color red)"└╼"(set_color green)"$USER"(set_color yellow)(set_color yellow)"\$"(set_color normal)
 end
 
 alias ls='ls -lh --color=auto'
