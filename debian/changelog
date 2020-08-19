@@ -1,7 +1,8 @@
 parrot-skel (4.10.7) rolling-testing; urgency=medium
 
-  * Update debian standard version in control
-  * Update new copyright
+  * Update debian standard version in control.
+  * Update new copyright.
+  * Update neovim settings.
 
  -- Nong Hoang Tu <dmknght@parrotsec.org>  Thu, 20 Aug 2020 00:57:05 +0700
 
