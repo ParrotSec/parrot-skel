@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: parrot-skel
-Upstream-Contact: <preferred name and address to reach the upstream project>
+Upstream-Contact: Parrot Team <team@parrotsec.org>
 Source: https://nest.parrotsec.org/packages/parrot/parrot-skel
 
 Files: *
