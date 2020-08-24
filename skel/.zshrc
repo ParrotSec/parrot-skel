@@ -14,8 +14,8 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 # Basic completions
-#autoload -Uz compinit && compinit
-#autoload bashcompinit && bashcompinit # Could be useless
+autoload -Uz compinit && compinit
+autoload bashcompinit && bashcompinit # Could be useless
 
 ###################################################
 # Skip upper / lower case completion
@@ -33,3 +33,9 @@ alias egrep='egrep --color=auto'
 # Requires "zsh-autosuggestions" from apt
 
 #-----------------------------------------
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+##################################################
+# Fish like syntax highlighting
+# Requires "zsh-syntax-highlighting" from apt
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
