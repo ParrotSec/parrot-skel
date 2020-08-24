@@ -15,6 +15,3 @@ alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-set DEBEMAIL "dmknght@parrotsec.org"
-set DEBFULLNAME "Nong Hoang Tu"
-export DEBEMAIL DEBFULLNAME
