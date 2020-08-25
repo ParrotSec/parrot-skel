@@ -16,7 +16,7 @@ alias egrep='egrep --color=auto'
 #####################################################
 # Auto completion / suggestion
 # Requires: zsh-autocomplete (custom packaging by Parrot Team)
-source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source /usr/share/zsh-autocomplete/zsh-autocomplete.zsh
 
 ##################################################
 # Fish like syntax highlighting
