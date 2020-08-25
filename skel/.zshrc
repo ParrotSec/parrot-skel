@@ -13,31 +13,10 @@ alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-# Basic completions
-# -U: Ignore any aliases when loading a function like compinit or bashcompinit
-# +X: Just load the named function fow now and don't execute it
-# https://stackoverflow.com/a/27853970
-
-autoload -U +X compinit && compinit
-autoload -U +X bashcompinit && bashcompinit # Could be useless
-source /usr/share/bash-completion/completions/
-###################################################
-# Skip upper / lower case completion
-# Example: type ~/d* -> auto suggest both d* and D*
-#setopt NO_CASE_GLOB # skip Aa for auto completion
-#-------------------------------------------------
-
-#################################################
-# A bash like completion
-#setopt GLOB_COMPLETE
-# ---------------------------------------------
-
-################################################
-# A fish like completion
-# Requires "zsh-autosuggestions" from apt
-
-#-----------------------------------------
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+#####################################################
+# Auto completion / suggestion
+# Requires: zsh-autocomplete (custom packaging by Parrot Team)
+source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 ##################################################
 # Fish like syntax highlighting
@@ -45,7 +24,8 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Save type history for completion and easier life
-HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
-setopt appendhistory
+#HISTFILE=~/.zsh_history
+#HISTSIZE=10000
+#SAVEHIST=10000
+#setopt appendhistory
+
