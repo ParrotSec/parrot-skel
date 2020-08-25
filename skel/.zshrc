@@ -22,6 +22,8 @@ alias egrep='egrep --color=auto'
 # Jobs: Fish-like suggestion for command history
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-autocomplete/zsh-autocomplete.zsh
+# Select all suggestion instead of top on result only
+zstyle ':autocomplete:tab:*' completion select
 
 ##################################################
 # Fish like syntax highlighting
