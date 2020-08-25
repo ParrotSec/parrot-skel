@@ -15,8 +15,13 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 #####################################################
 # Auto completion / suggestion
+# Mixing zsh-autocomplete and zsh-autosuggestions
 # Requires: zsh-autocomplete (custom packaging by Parrot Team)
+# Jobs: suggest files / foldername / histsory bellow the prompt
+# Requires: zsh-autosuggestions (packaging by Debian Team)
+# Jobs: Fish-like suggestion for command history
 source /usr/share/zsh-autocomplete/zsh-autocomplete.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ##################################################
 # Fish like syntax highlighting
@@ -24,8 +29,8 @@ source /usr/share/zsh-autocomplete/zsh-autocomplete.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Save type history for completion and easier life
-#HISTFILE=~/.zsh_history
-#HISTSIZE=10000
-#SAVEHIST=10000
-#setopt appendhistory
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
 
