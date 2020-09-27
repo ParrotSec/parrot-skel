@@ -24,6 +24,9 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 # Select all suggestion instead of top on result only
 zstyle ':autocomplete:tab:*' completion select
+zstyle ':autocomplete:list-choices:*' max-lines 100%
+zstyle ':autocomplete:list-choices:*' min-input 2
+zstyle ':autocomplete:*' recent-dirs off
 
 ##################################################
 # Fish like syntax highlighting
