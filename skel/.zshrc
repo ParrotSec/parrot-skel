@@ -21,7 +21,7 @@ alias egrep='egrep --color=auto'
 # Requires: zsh-autosuggestions (packaging by Debian Team)
 # Jobs: Fish-like suggestion for command history
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh-autocomplete/zsh-autocomplete.zsh
+source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 # Select all suggestion instead of top on result only
 zstyle ':autocomplete:tab:*' completion select
 
