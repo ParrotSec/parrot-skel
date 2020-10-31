@@ -28,4 +28,5 @@ MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
 ColorForeground=#0000ffff0000
+ScrollingUnlimited=TRUE
 
