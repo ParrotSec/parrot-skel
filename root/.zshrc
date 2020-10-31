@@ -23,9 +23,13 @@ alias egrep='egrep --color=auto'
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 # Select all suggestion instead of top on result only
-zstyle ':autocomplete:tab:*' completion cycle
+zstyle ':autocomplete:tab:*' insert-unambiguous yes
+zstyle ':autocomplete:tab:*' widget-style menu-select
 zstyle ':autocomplete:list-choices:*' max-lines 100%
 zstyle ':autocomplete:list-choices:*' min-input 2
+# Set a bash-like history
+bindkey $key[Up] up-line-or-history
+bindkey $key[Down] down-line-or-history
 
 ##################################################
 # Fish like syntax highlighting
