@@ -5,5 +5,5 @@
 
 override_dh_fixperms:
 	dh_fixperms
-	chmod 555 debian/parrot-skel/usr/lib/parrot-skel/etc/skel/.config/polybar/launch.sh
-	chmod 555 debian/parrot-skel/root/.config/polybar/launch.sh
+	chmod 0755 debian/parrot-skel/usr/lib/parrot-skel/etc/skel/.config/polybar/launch.sh
+	chmod 0755 debian/parrot-skel/root/.config/polybar/launch.sh
