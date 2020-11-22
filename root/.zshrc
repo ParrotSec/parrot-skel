@@ -25,8 +25,8 @@ source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 # Select all suggestion instead of top on result only
 zstyle ':autocomplete:tab:*' insert-unambiguous yes
 zstyle ':autocomplete:tab:*' widget-style menu-select
-zstyle ':autocomplete:list-choices:*' max-lines 100%
-zstyle ':autocomplete:list-choices:*' min-input 2
+zstyle ':autocomplete:*' max-lines 100%
+zstyle ':autocomplete:*' min-input 2
 # Set a bash-like history
 bindkey $key[Up] up-line-or-history
 bindkey $key[Down] down-line-or-history
@@ -42,3 +42,6 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
+# Useful alias for benchmarking programs
+# require install package "time" sudo apt install time
+# alias time="/usr/bin/time -f '\t%E real,\t%U user,\t%S sys,\t%K amem,\t%M mmem'"
