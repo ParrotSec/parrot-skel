@@ -25,7 +25,6 @@ source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 # Select all suggestion instead of top on result only
 zstyle ':autocomplete:tab:*' insert-unambiguous yes
 zstyle ':autocomplete:tab:*' widget-style menu-select
-zstyle ':autocomplete:*' max-lines 100%
 zstyle ':autocomplete:*' min-input 2
 # Set a bash-like history
 bindkey $key[Up] up-line-or-history
