@@ -1,3 +1,9 @@
+parrot-skel (4.10.2) rolling-testing; urgency=medium
+
+  * Improve xfce configs.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 11 Jun 2020 11:23:48 +0200
+
 parrot-skel (4.10.1) rolling-testing; urgency=medium
 
   * Merge with previous xfce work.
