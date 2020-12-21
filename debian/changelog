@@ -1,8 +1,44 @@
+parrot-skel (4.10.7) rolling-testing; urgency=medium
+
+  * Update debian standard version in control.
+  * Update new copyright.
+  * Update neovim settings.
+
+ -- Nong Hoang Tu <dmknght@parrotsec.org>  Thu, 20 Aug 2020 00:57:05 +0700
+
+parrot-skel (4.10.6) rolling-testiing; urgency=medium
+
+  * Update xfce panel.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sat, 15 Aug 2020 23:15:21 +0200
+
+parrot-skel (4.10.5) rolling-testing; urgency=medium
+
+  * Decrease konsole transparency.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 14 Aug 2020 18:51:40 +0200
+
+parrot-skel (4.10.4) rolling-testing; urgency=medium
+
+  * New lock screen hotkey (root).
+  * Fix power-manager display (root).
+  * Fix power applet display.
+  * Change lock screen shortcut (ctrl + alt + l).
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 14 Aug 2020 18:31:30 +0200
+
+parrot-skel (4.10.3) rollng-testing; urgency=medium
+
+  * Rebuild package.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 23 Jun 2020 17:18:55 +0200
+
 parrot-skel (4.10.2) rolling-testing; urgency=medium
 
-  * Improve xfce configs.
+  * Import previous work from git.
 
- -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 11 Jun 2020 11:23:48 +0200
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 23 Jun 2020 17:10:23 +0200
+>>>>>>> 4c307a4c1def0186a9334f3a3f3c4b2615d76937
 
 parrot-skel (4.10.1) rolling-testing; urgency=medium
 
