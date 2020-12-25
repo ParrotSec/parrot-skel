@@ -1,3 +1,9 @@
+parrot-skel (4.10.8) rolling-testing; urgency=medium
+
+  * Bump new package version.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 25 Dec 2020 21:39:47 +0100
+
 parrot-skel (4.10.7) rolling-testing; urgency=medium
 
   * Update debian standard version in control.
