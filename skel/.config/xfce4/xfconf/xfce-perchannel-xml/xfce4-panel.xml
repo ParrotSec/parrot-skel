@@ -118,12 +118,17 @@
       </property>
     </property>
     <property name="plugin-3" type="string" value="notification-plugin"/>
-    <property name="plugin-4" type="string" value="clock"/>
+    <property name="plugin-4" type="string" value="clock">
+      <property name="digital-format" type="string" value="%H:%M, %a %d-%b"/>
+    </property>
     <property name="plugin-6" type="string" value="pager">
       <property name="rows" type="uint" value="1"/>
     </property>
     <property name="plugin-11" type="string" value="systemload"/>
     <property name="plugin-12" type="string" value="power-manager-plugin"/>
+    <property name="plugin-5" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    </property>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
