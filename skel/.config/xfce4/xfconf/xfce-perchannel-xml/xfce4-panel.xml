@@ -116,6 +116,7 @@
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="redshift-gtk"/>
       </property>
+      <property name="show-frame" type="bool" value="false"/>
     </property>
     <property name="plugin-3" type="string" value="notification-plugin"/>
     <property name="plugin-4" type="string" value="clock">
