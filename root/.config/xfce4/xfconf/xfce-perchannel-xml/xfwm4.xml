@@ -72,10 +72,11 @@
     <property name="wrap_windows" type="bool" value="true"/>
     <property name="wrap_workspaces" type="bool" value="false"/>
     <property name="workspace_names" type="array">
-      <value type="string" value="Spazio di lavoro 1"/>
-      <value type="string" value="Spazio di lavoro 2"/>
-      <value type="string" value="Spazio di lavoro 3"/>
-      <value type="string" value="Spazio di lavoro 4"/>
+      <value type="string" value="Workspace 1"/>
+      <value type="string" value="Workspace 2"/>
+      <value type="string" value="Workspace 3"/>
+      <value type="string" value="Workspace 4"/>
+      <value type="string" value="Workspace 5"/>
     </property>
     <property name="cycle_raise" type="bool" value="false"/>
     <property name="cycle_preview" type="bool" value="true"/>
@@ -86,5 +87,7 @@
     <property name="tile_on_move" type="bool" value="true"/>
     <property name="titleless_maximize" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>
+    <property name="cycle_minimized" type="bool" value="false"/>
+    <property name="zoom_pointer" type="bool" value="true"/>
   </property>
 </channel>
