@@ -12,10 +12,8 @@
         <value type="int" value="1"/>
         <value type="int" value="7"/>
         <value type="int" value="19"/>
-        <value type="int" value="5"/>
-        <value type="int" value="20"/>
-        <value type="int" value="3"/>
         <value type="int" value="6"/>
+        <value type="int" value="11"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-color" type="array">
@@ -41,7 +39,10 @@
         <value type="int" value="8"/>
         <value type="int" value="16"/>
         <value type="int" value="18"/>
-        <value type="int" value="17"/>
+        <value type="int" value="3"/>
+        <value type="int" value="12"/>
+        <value type="int" value="2"/>
+        <value type="int" value="4"/>
       </property>
       <property name="length" type="uint" value="100"/>
       <property name="background-style" type="uint" value="0"/>
@@ -65,22 +66,6 @@
       <property name="show-tooltips" type="bool" value="true"/>
       <property name="custom-menu" type="bool" value="false"/>
       <property name="show-generic-names" type="bool" value="false"/>
-    </property>
-    <property name="plugin-5" type="string" value="clock"/>
-    <property name="plugin-6" type="string" value="systray">
-      <property name="names-visible" type="array">
-        <value type="string" value="applet networkmanager"/>
-        <value type="string" value="wicd-client.py"/>
-      </property>
-      <property name="names-ordered" type="array">
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="remmina"/>
-        <value type="string" value="task manager"/>
-        <value type="string" value="blueman-tray"/>
-        <value type="string" value="networkmanager applet"/>
-      </property>
-      <property name="show-frame" type="bool" value="false"/>
-      <property name="square-icons" type="bool" value="false"/>
     </property>
     <property name="plugin-8" type="string" value="separator">
       <property name="style" type="uint" value="1"/>
@@ -109,9 +94,6 @@
       <property name="grouping" type="uint" value="0"/>
       <property name="show-only-minimized" type="bool" value="false"/>
     </property>
-    <property name="plugin-17" type="string" value="pager">
-      <property name="rows" type="uint" value="1"/>
-    </property>
     <property name="plugin-18" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
@@ -120,21 +102,28 @@
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
     </property>
-    <property name="plugin-20" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-29" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="15869289774.desktop"/>
       </property>
     </property>
-    <property name="plugin-3" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-    </property>
     <property name="plugin-7" type="string" value="places">
       <property name="show-button-type" type="int" value="2"/>
     </property>
+    <property name="plugin-2" type="string" value="systray">
+      <property name="names-ordered" type="array">
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="redshift-gtk"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="notification-plugin"/>
+    <property name="plugin-4" type="string" value="clock"/>
+    <property name="plugin-6" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+    </property>
+    <property name="plugin-11" type="string" value="systemload"/>
+    <property name="plugin-12" type="string" value="power-manager-plugin"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
