@@ -1,3 +1,9 @@
+parrot-skel (4.11) rolling-testing; urgency=medium
+
+  * Import new version from git.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 19 Feb 2021 16:31:58 +0100
+
 parrot-skel (4.10.8) rolling-testing; urgency=medium
 
   * Bump new package version.
