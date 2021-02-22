@@ -26,10 +26,14 @@ source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 zstyle ':autocomplete:tab:*' insert-unambiguous yes
 zstyle ':autocomplete:tab:*' widget-style menu-select
 zstyle ':autocomplete:*' min-input 2
+bindkey $key[Up] up-line-or-history
+bindkey $key[Down] down-line-or-history
+
 
 ##################################################
 # Fish like syntax highlighting
 # Requires "zsh-syntax-highlighting" from apt
+
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Save type history for completion and easier life
