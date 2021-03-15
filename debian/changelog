@@ -1,6 +1,7 @@
 parrot-skel (4.11.2) rolling; urgency=medium
 
   * Add .zshrc
+  * Fix Makefile.
 
  -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 15 Mar 2021 23:40:10 +0100
 

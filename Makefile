@@ -6,6 +6,8 @@ all:
 clean:
 
 install:
+	mkdir -p root/.config/dconf
+	mkdir -p skel/.config/dconf
 	dconf compile root/.config/dconf dconf/db/local.d/
 	dconf compile skel/.config/dconf dconf/db/local.d/
 	mkdir -p $(DESTDIR)/usr/lib/parrot-skel/etc
