@@ -1,4 +1,4 @@
-favorites=encryptpad.desktop,mousepad.desktop,anon-gui.desktop,codium.desktop,org.remmina.Remmina.desktop,htop.desktop
+favorites=mousepad.desktop,encryptpad.desktop,anon-gui.desktop,codium.desktop,org.remmina.Remmina.desktop,htop.desktop
 button-title=Menu
 button-icon=emblem-parrot
 button-single-row=false
@@ -11,11 +11,11 @@ item-icon-size=3
 hover-switch-category=false
 category-show-name=true
 category-icon-size=1
-load-hierarchy=false
-view-as-icons=true
+load-hierarchy=true
+view-as-icons=false
+default-category=0
 recent-items-max=10
 favorites-in-recent=true
-display-recent-default=false
 position-search-alternate=true
 position-commands-alternate=false
 position-categories-alternate=true
@@ -46,7 +46,7 @@ command-menueditor=menulibre
 show-command-menueditor=true
 command-profile=mugshot
 show-command-profile=true
-search-actions=5
+search-actions=3
 
 [action0]
 name=Man Pages
@@ -65,3 +65,4 @@ name=Run in Terminal
 pattern=!
 command=exo-open --launch TerminalEmulator %s
 regex=false
+
