@@ -1,3 +1,32 @@
+parrot-skel (4.11.4) rolling; urgency=medium
+
+  * Add parrot icon to kde plasma menu.
+  * Move desktop switcher to the right.
+  * remove extra launchers.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Wed, 17 Mar 2021 11:31:59 +0100
+
+parrot-skel (4.11.3) rolling; urgency=medium
+
+  * Fix Makefile (again).
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 16 Mar 2021 00:58:04 +0100
+
+parrot-skel (4.11.2) rolling; urgency=medium
+
+  * Add .zshrc
+  * Fix Makefile.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 15 Mar 2021 23:40:10 +0100
+
+parrot-skel (4.11.1) rolling; urgency=medium
+
+  * Fix duplicate entries in Plasma bar.
+  * Update Plasma appletsrc.
+  * Update Plasma desktop wallpaper.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 15 Mar 2021 23:18:54 +0100
+
 parrot-skel (4.11) rolling-testing; urgency=medium
 
   * Import new version from git.
@@ -50,7 +79,6 @@ parrot-skel (4.10.2) rolling-testing; urgency=medium
   * Import previous work from git.
 
  -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 23 Jun 2020 17:10:23 +0200
->>>>>>> 4c307a4c1def0186a9334f3a3f3c4b2615d76937
 
 parrot-skel (4.10.1) rolling-testing; urgency=medium
 
