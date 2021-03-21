@@ -1,3 +1,13 @@
+parrot-skel (4.11.5) rolling; urgency=medium
+
+  * xfce: Remove default task manager settings
+  * xfce: Add mousepad and change display to tree
+  * xfce: Enable anti aliasing
+  * xfce: change whisker menu display to tree
+
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@localhost.localdomain>  Sun, 21 Mar 2021 23:43:31 +0100
+
 parrot-skel (4.11.4) rolling; urgency=medium
 
   * Add parrot icon to kde plasma menu.
