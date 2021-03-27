@@ -1,3 +1,9 @@
+parrot-skel (4.11.6) rolling; urgency=medium
+
+  * Update kde plasma configs (again).
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sat, 27 Mar 2021 16:53:32 +0100
+
 parrot-skel (4.11.5) rolling; urgency=medium
 
   * xfce: Remove default task manager settings
