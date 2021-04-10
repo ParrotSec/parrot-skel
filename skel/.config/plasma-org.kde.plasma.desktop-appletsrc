@@ -25,9 +25,15 @@ plugin=org.kde.plasma.kickoff
 [Containments][18][Applets][19][Configuration]
 PreloadWeight=100
 
+[Containments][18][Applets][19][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][18][Applets][19][Configuration][General]
 customButtonImage=emblem-parrot
 favoritesPortedToKAstats=true
+icon=distributor-logo
+menuItems=application:t,computer:t,leave:t,oftenUsed:f,bookmark:f,used:f
 systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
 useCustomButtonImage=true
 
@@ -51,6 +57,13 @@ plugin=org.kde.plasma.taskmanager
 [Containments][18][Applets][21][Configuration]
 PreloadWeight=42
 
+[Containments][18][Applets][21][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][18][Applets][21][Configuration][General]
+launchers=preferred://browser,preferred://filemanager,applications:org.kde.kate.desktop,applications:org.kde.konsole.desktop,applications:codium.desktop,applications:libreoffice-startcenter.desktop,applications:systemsettings.desktop
+
 [Containments][18][Applets][22]
 immutability=1
 plugin=org.kde.plasma.systemtray
@@ -65,38 +78,6 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][18][Applets][24][Configuration]
 PreloadWeight=42
-
-[Containments][18][Applets][33]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][18][Applets][33][Configuration]
-PreloadWeight=42
-url=file:///usr/share/applications/org.kde.dolphin.desktop
-
-[Containments][18][Applets][34]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][18][Applets][34][Configuration]
-PreloadWeight=42
-url=file:///usr/share/applications/firefox.desktop
-
-[Containments][18][Applets][37]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][18][Applets][37][Configuration]
-PreloadWeight=42
-url=file:///usr/share/applications/org.kde.kwrite.desktop
-
-[Containments][18][Applets][38]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][18][Applets][38][Configuration]
-PreloadWeight=42
-url=file:///usr/share/applications/org.kde.konsole.desktop
 
 [Containments][18][Applets][43]
 immutability=1
@@ -117,27 +98,18 @@ cpuNiceColor=85,170,255
 cpuUserColor=0,255,0
 memApplicationColor=0,255,0
 memBuffersColor=0,0,255
-monitorType=Circular
 setColorsManually=true
 swapActivated=false
 
-[Containments][18][Applets][60]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][18][Applets][60][Configuration]
-PreloadWeight=26
-url=file:///usr/share/applications/codium.desktop
-
 [Containments][18][ConfigDialog]
 DialogHeight=84
-DialogWidth=1366
+DialogWidth=1024
 
 [Containments][18][Configuration]
 PreloadWeight=42
 
 [Containments][18][General]
-AppletOrder=19;33;20;34;38;37;60;43;21;22;24
+AppletOrder=19;21;43;20;22;24
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=92
@@ -247,8 +219,8 @@ knownItems=org.kde.discovernotifier,org.kde.plasma.battery,org.kde.plasma.blueto
 [Containments][39][Wallpaper][org.kde.image][General]
 Image=file://usr/share/backgrounds/default.jpg
 
-[Containments][64]
-activityId=b0ba2a31-bec2-4f7e-bb4f-b5c657488e4a
+[Containments][65]
+activityId=f37e3dfe-8790-48e7-b573-903e13efbc66
 formfactor=0
 immutability=1
 lastScreen=0
@@ -256,16 +228,12 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][64][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+[Containments][65][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=220
 
-[Containments][64][Configuration]
-PreloadWeight=42
-
-[Containments][64][Wallpaper][org.kde.image][General]
-Image=file://usr/share/backgrounds/default.jpg
-SlidePaths=/usr/share/wallpapers
+[Containments][65][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/desktop-base/parrot-theme/wallpaper/contents/images/1024x768.png
 
 [Containments][7][Applets][10][Configuration]
 PreloadWeight=42
@@ -294,6 +262,3 @@ PreloadWeight=42
 [Containments][7][Configuration]
 PreloadWeight=42
 
-[ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/README.license,0
