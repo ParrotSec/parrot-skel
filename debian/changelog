@@ -1,3 +1,15 @@
+parrot-skel (4.11.7) rolling; urgency=medium
+
+  [ Nong Hoang Tu ]
+  * Add history to terminal to zsh shell
+  * Add default title when user start (replace untitled window)
+  * Various update for kde
+
+  [ Lorenzo "Palinuro" Faletra ]
+  * Update copyright year.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Wed, 14 Apr 2021 00:08:38 +0200
+
 parrot-skel (4.11.6) rolling; urgency=medium
 
   * Update kde plasma configs (again).
