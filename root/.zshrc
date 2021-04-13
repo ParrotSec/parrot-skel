@@ -44,3 +44,7 @@ setopt appendhistory
 # Useful alias for benchmarking programs
 # require install package "time" sudo apt install time
 # alias time="/usr/bin/time -f '\t%E real,\t%U user,\t%S sys,\t%K amem,\t%M mmem'"
+# Display last command interminal
+echo -en "\e]2;Parrot Terminal\a"
+preexec () { print -Pn "\e]0;$1 - Parrot Terminal\a" }
+

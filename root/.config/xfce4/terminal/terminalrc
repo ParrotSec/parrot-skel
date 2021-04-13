@@ -29,4 +29,5 @@ MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
 ColorForeground=#0000ffff0000
 ScrollingUnlimited=TRUE
+TitleMode=TERMINAL_TITLE_REPLACE
 
